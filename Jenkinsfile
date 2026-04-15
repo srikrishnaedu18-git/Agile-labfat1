@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKER_IMAGE = "srikrishnaedu18docker/labfat-test/java-app"
+    DOCKER_IMAGE = "srikrishnaedu18docker/labfat-test"
     KUBECONFIG = "/home/jenkins/.kube/config"
   }
   stages {
